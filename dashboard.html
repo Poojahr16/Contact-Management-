@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<a href="/add">Add Contact</a>
+
+<table>
+<tr>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Email</th>
+    <th>Action</th>
+</tr>
+
+{% for c in contacts %}
+<tr>
+    <td>{{ c.name }}</td>
+    <td>{{ c.phone }}</td>
+    <td>{{ c.email }}</td>
+    <td>
+        <a href="/edit/{{ c.id }}">Edit</a>
+        <a href="/delete/{{ c.id }}">Delete</a>
+    </td>
+</tr>
+{% endfor %}
+
+</table>
+
+{% endblock %}
