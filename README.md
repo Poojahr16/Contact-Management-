@@ -115,13 +115,3 @@ This project is open-source and available under the **MIT License**.
 
 ---
 
-## 👩‍💻 Author
-
-Developed by *Your Name*
-
-* GitHub: https://github.com/your-username
-* LinkedIn: https://linkedin.com/in/your-profile
-
----
-
-⭐ If you like this project, don't forget to give it a star!
